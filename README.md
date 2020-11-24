@@ -76,7 +76,7 @@ Open the application on your browser `127.0.0.1:8000`.
 There are no known bugs 
   
 ## Contact Information   
-If you have any question or contributions, please email me at [rustique644@gmail.com]  
+If you have any question or contributions, please email me at rustique644@gmail.com
   
 ## License 
 
