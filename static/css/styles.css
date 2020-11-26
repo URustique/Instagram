@@ -33,16 +33,37 @@ h1{
 .navbar{
     background-color:white;
 }
-/* .instaicon{
-    display: inline-block;
-    background-image: url(/static/images/96319a506a03.png);
-    padding:0px;
+
+.instalogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 30%;
 }
-.instaglyph{
-    display: inline-block;
-    background-image: url(/static/images/68597043.jpeg);
-    margin:8px;
-} */
+.instalogo a{
+    font-size: 25px;
+    padding-left: 10px;  
+}
+
+.vl{
+    border-left: 1.5px solid #111;
+    height: 30px;
+    margin-left: 20px; 
+}
+
+.contact_icons{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    padding-left: 100px;
+}
+
+.contact_icons a{
+    padding-left: 30px;
+    font-size: 25px;
+    font-weight: lighter; 
+}
+
 .modal-body a{
     text-decoration:none;
     color:black;
