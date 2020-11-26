@@ -23,8 +23,7 @@ Users can sign up, login, view and post photos, search and follow other users.
 * Follow other users and see their pictures on my timeline.  
   
 ## Setup and Installation  
-
-  
+ 
 ##### Cloning the repository:  
  ```bash 
  https://github.com/Rustique-Uwimpaye/Instagram.git
