@@ -41,12 +41,7 @@ def index(request):
             return HttpResponseRedirect(request.path_info)
     else:
         form = PostForm()
-    # # params = {
-    # #     'images': images,
-    # #     'form': form,
-    # #     'users': users,
-
-    # }
+    
     return render(request, 'instaClone/index.html', {'images':images, 'form': form, 'users': users})
 
 
