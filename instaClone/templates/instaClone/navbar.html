@@ -1,19 +1,37 @@
+{% load static %}
+{% block content %}
 <div class="navbar fixed-top bg-white">
     <nav class="container">
       <span class="navbar-brand mb-0 h1">
-          <a href="/">
+          <!-- <a href="/">
               <div id="brand" class="instaicon logo d-none d-sm-block"></div>
               <div class="instaicon mainicon d-block d-sm-none"></div>
-          </a>
+          </a> -->
+
+          <div class='instalogo'>
+            <a class='' href='/'><i class="fab fa-instagram"></i></a>
+            <a class='vl' href='/'></a>
+            <a href='/'>Instagram</a>
+            
+        </div>
       </span>
         <form class="mb-0 h1 ml-auto mr-auto" id="searchform" action="{% url 'search' %}" >
              <input name="search_user" autocomplete="off" id="searching" class="form-control d-none d-md-block" placeholder="Search">
             <i class="spinner "></i>
         </form>
         <span class="pull-right">
-            <div class="instaicon disc"></div>
+            <!-- <div class="instaicon disc"></div>
             <div class="instaicon like"></div>
-            <a href="{% url 'profile' user.username %}" class="instaicon pers"></a>
+            <a href="{% url 'profile' user.username %}" class="instaicon pers"></a> -->
+
+            <div class='contact_icons'>
+                <a class='home' href='/'><i class="fas fa-home"></i></a>
+                <a class='send' href='/'><i class="far fa-paper-plane"></i></a>
+                <a class='explore' href='/'><i class="far fa-compass"></i></a>
+                <a class='likes' href='/'><i class="far fa-heart"></i></a>
+                <a class='profile' href='/'><i class="far fa-user"></i></a>
+            </div>
         </span>
     </nav>
 </div>
+{% endblock %}
