@@ -74,18 +74,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'instagram.wsgi.application'
 
-# Database
-# https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-
-# DATABASES = {
-#     'default': dj_database_url.config(
-#         default=config('DATABASE_URL')
-#     )
-# }
-
-# db_from_env = dj_database_url.config(conn_max_age=500)
-# DATABASES['default'].update(db_from_env)
-
 MODE=config("MODE", default="dev")
 # development
 if config('MODE')=="dev":
