@@ -1,8 +1,6 @@
 from django.test import TestCase
-
 from .models import Profile, Post
 from django.contrib.auth.models import User
-
 
 class TestProfile(TestCase):
     def setUp(self):
@@ -19,7 +17,6 @@ class TestProfile(TestCase):
         self.profile_test.save_profile()
         after = Profile.objects.all()
         self.assertTrue(len(after) > 0)
-
 
 class TestPost(TestCase):
     def setUp(self):
